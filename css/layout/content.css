@@ -1,0 +1,6 @@
+.content {
+    float: left;
+    width: calc(100% - 226px);
+    height: calc(100vh - 48px);
+    background-color: coral;
+}
