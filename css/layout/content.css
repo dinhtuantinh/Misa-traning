@@ -1,0 +1,123 @@
+#t-content {
+    width: 100%;
+    height: calc(100% - 48px);
+}
+
+#t-content > div {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#t-content .t-right-8 {
+    margin-right: 8px;
+}
+
+#t-content .t-right-16 {
+    margin-right: 16px;
+}
+
+
+/* Content top */
+#t-content .t-content-top {
+    margin-top: 24px;
+}
+
+#t-content .t-top-upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#t-content .t-header-title {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#t-content .t-add-employee {
+
+}
+
+#t-content .t-top-lower {
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#t-content .t-header-filter {
+    display: flex;
+    align-items: center;
+}
+
+#t-content .t-header-refresh {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background: url('../../content/icon/refresh.png') center no-repeat;
+    background-size: 24px 24px;
+    background-color: #E9EBEE;
+}
+
+#t-content .t-header-refresh:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+
+/* Content center */
+#t-content .t-content-center {
+    height: 480px;
+    margin-top: 8px;
+    overflow: scroll;
+}
+
+#t-content .t-refresh-table {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+#t-content .t-refresh-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 5px solid rgb(110, 108, 108);
+    border-top: 5px solid #01B075;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: refresh 1s linear infinite;
+}
+
+@keyframes refresh {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+
+/* Content bottom */
+#t-content .t-content-bottom {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+#t-content .t-count-left {
+    min-width: 18%;
+    text-align: start;
+    margin-left: 16px;
+}
+
+#t-content .t-count-right {
+    min-width: 18%;
+    text-align: end;
+    margin-right: 16px;
+}
+
+
+
+
