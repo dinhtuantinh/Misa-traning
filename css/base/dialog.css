@@ -1,4 +1,5 @@
 /* common */
+
 .t-clear {
     clear: both !important;
 }
@@ -21,18 +22,19 @@
 }
 
 
-
 /* dialog */
+
 .t-dialog-conatiner {
     width: 460px;
     border: 1px solid #bbbbbb;
     border-radius: 4px;
-
     /* extend */
     margin-left: 16px;
 }
 
+
 /* close btn */
+
 .t-dialog-conatiner .t-dialog-close {
     float: right;
     padding: 4px;
@@ -44,13 +46,17 @@
     font-size: 16px;
 }
 
+
 /* header */
+
 .t-dialog-conatiner .t-dialog-header {
     font-size: 15px;
     font-weight: bold;
 }
 
+
 /* content */
+
 .t-dialog-conatiner .t-dialog-content {
     display: flex;
     margin-top: 24px;
@@ -67,7 +73,9 @@
     background-color: #E5E5E5;
 }
 
+
 /* footer */
+
 .t-dialog-conatiner .t-dialog-footer {
     margin-top: 24px;
     height: 60px;
@@ -104,9 +112,3 @@
     background-color: #2FBE8E;
     cursor: pointer;
 }
-
-
-
-
-
-

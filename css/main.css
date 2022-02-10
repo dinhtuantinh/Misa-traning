@@ -12,8 +12,6 @@
 @import url('./layout/header.css');
 @import url('./layout/content.css');
 @import url('./layout/container.css');
-
-
 * {
     margin: 0;
     padding: 0;
@@ -31,16 +29,17 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #888;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
 }
+
 
 /* Font */
 

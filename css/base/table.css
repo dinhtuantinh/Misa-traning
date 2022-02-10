@@ -10,13 +10,15 @@
     width: 150px;
 }
 
+
 /* table */
 
 .t-table {
     border-collapse: collapse;
 }
 
-.t-table th, .t-table td {
+.t-table th,
+.t-table td {
     height: 48px;
     text-align: left;
 }
@@ -33,7 +35,9 @@
     width: 20px;
 }
 
+
 /* checkbox */
+
 .t-table-checkbox {
     width: 20px;
     height: 20px;
@@ -43,7 +47,9 @@
     cursor: pointer;
 }
 
+
 /* icon */
+
 .t-column-icon {
     color: #BBBBBB;
     margin: 0 10px 0 8px;
@@ -57,6 +63,3 @@
 .t-column-icon:active {
     color: #333;
 }
-
-
-

@@ -1,4 +1,5 @@
 /* common color */
+
 .t-messenger-error {
     color: #F65454;
 }
@@ -22,7 +23,6 @@
     position: fixed;
     top: 0;
     right: 16px;
-    
     /* extend */
     margin-left: 16px;
 }
@@ -56,19 +56,3 @@
     right: 8px;
     font-size: 24px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

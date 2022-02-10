@@ -28,7 +28,9 @@
     line-height: 24px;
 }
 
+
 /* icon */
+
 #t-navbar .t-menu-icon {
     background: url('../../content/img/toggle.png') left no-repeat;
     background-size: contain;
@@ -63,4 +65,3 @@
     background: url('../../content/icon/setting.png') left no-repeat;
     background-size: 20px 20px;
 }
-

@@ -23,7 +23,9 @@
     padding-left: 40px;
 }
 
+
 /* error message */
+
 .t-error-box {
     margin-left: 16px;
     display: inline-block;
@@ -38,7 +40,7 @@
 }
 
 .t-message-box .t-error-message {
-    background-color: #FF4747; 
+    background-color: #FF4747;
     color: #ffffff;
     border-radius: 4px;
     z-index: 2;

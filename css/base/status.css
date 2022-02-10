@@ -9,7 +9,6 @@
     line-height: 32px;
     border-radius: 4px;
     text-align: center;
-
     /* extend */
     margin-left: 16px;
     cursor: pointer;
@@ -39,5 +38,3 @@
     background-color: #E5E5E5;
     color: #454545;
 }
-
-

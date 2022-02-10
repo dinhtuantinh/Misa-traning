@@ -6,6 +6,6 @@
 
 const inputElement = document.querySelectorAll('.t-input');
 
-for(let input of inputElement) {
-    input.setAttribute('size',input.getAttribute('placeholder').length);
+for (let input of inputElement) {
+    input.setAttribute('size', input.getAttribute('placeholder').length);
 }
